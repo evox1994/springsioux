@@ -2,13 +2,104 @@
 
 @font-face {
     font-family: 'FrancoisOne';
-    src: url('../fonts/FrancoisOne-Regular.eot');
-    src: url('../fonts/FrancoisOne-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/FrancoisOne-Regular.svg#FrancoisOne-Regular') format('svg'),
-         url('../fonts/FrancoisOne-Regular.ttf') format('truetype'),
-         url('../fonts/FrancoisOne-Regular.woff') format('woff'),
-         url('../fonts/FrancoisOne-Regular.woff2') format('woff2');
+    src: url('../fonts/FrancoisOne.eot');
+    src: url('../fonts/FrancoisOne.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FrancoisOne.svg#FrancoisOne') format('svg'),
+         url('../fonts/FrancoisOne.ttf') format('truetype'),
+         url('../fonts/FrancoisOne.woff') format('woff'),
+         url('../fonts/FrancoisOne.woff2') format('woff2');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNovaExCn';
+    src: url('../fonts/ProximaNovaExCn-Regular.eot');
+    src: url('../fonts/ProximaNovaExCn-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNovaExCn-Regular.svg#ProximaNovaExCn-Regular') format('svg'),
+         url('../fonts/ProximaNovaExCn-Regular.ttf') format('truetype'),
+         url('../fonts/ProximaNovaExCn-Regular.woff') format('woff'),
+         url('../fonts/ProximaNovaExCn-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNovaExCn';
+    src: url('../fonts/ProximaNovaExCn-Light.eot');
+    src: url('../fonts/ProximaNovaExCn-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNovaExCn-Light.svg#ProximaNovaExCn-Light') format('svg'),
+         url('../fonts/ProximaNovaExCn-Light.ttf') format('truetype'),
+         url('../fonts/ProximaNovaExCn-Light.woff') format('woff'),
+         url('../fonts/ProximaNovaExCn-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNovaExCn';
+    src: url('../fonts/ProximaNovaExCn-Bold.eot');
+    src: url('../fonts/ProximaNovaExCn-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNovaExCn-Bold.svg#ProximaNovaExCn-Bold') format('svg'),
+         url('../fonts/ProximaNovaExCn-Bold.ttf') format('truetype'),
+         url('../fonts/ProximaNovaExCn-Bold.woff') format('woff'),
+         url('../fonts/ProximaNovaExCn-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNovaExCn';
+    src: url('../fonts/ProximaNovaExCn-Semibold.eot');
+    src: url('../fonts/ProximaNovaExCn-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNovaExCn-Semibold.svg#ProximaNovaExCn-Semibold') format('svg'),
+         url('../fonts/ProximaNovaExCn-Semibold.ttf') format('truetype'),
+         url('../fonts/ProximaNovaExCn-Semibold.woff') format('woff'),
+         url('../fonts/ProximaNovaExCn-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue-Regular.eot');
+    src: url('../fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg'),
+         url('../fonts/BebasNeue-Regular.ttf') format('truetype'),
+         url('../fonts/BebasNeue-Regular.woff') format('woff'),
+         url('../fonts/BebasNeue-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue-Book.eot');
+    src: url('../fonts/BebasNeue-Book.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-Book.svg#BebasNeue-Book') format('svg'),
+         url('../fonts/BebasNeue-Book.ttf') format('truetype'),
+         url('../fonts/BebasNeue-Book.woff') format('woff'),
+         url('../fonts/BebasNeue-Book.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue-Bold.eot');
+    src: url('../fonts/BebasNeue-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-Bold.svg#BebasNeue-Bold') format('svg'),
+         url('../fonts/BebasNeue-Bold.ttf') format('truetype'),
+         url('../fonts/BebasNeue-Bold.woff') format('woff')
+         url('../fonts/BebasNeue-Bold.woff2') format('woff2');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -26,10 +117,6 @@ body {
     font-family: 'FrancoisOne', sans-serif;
     text-transform: uppercase;
 }
-body.no-scroll {
-	height: 100vh !important;
-	overflow: hidden !important;
-}
 body .body-wrap {
     box-sizing: border-box;
     overflow-x: hidden;
@@ -43,7 +130,7 @@ a{
     transition: all 0.3s;
 }
 button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'FrancoisOne', sans-serif;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -63,6 +150,7 @@ label.error{
 }
 input.error,textarea.error{
 	border-color: #ff0000 !important;
+    background-color: #ffb9b9 !important;
 }
 .fancybox-inner{
 	overflow: visible !important;
@@ -85,16 +173,16 @@ input.error,textarea.error{
 	margin-left: -500px;
 }
 input::-webkit-input-placeholder {
-	color: #a0a0a0;
+	color: rgba(0,0,0,0.4);
 }
 input:-moz-placeholder {
-    color: #a0a0a0;
+    color: rgba(0,0,0,0.4);
 }
 textarea::-webkit-input-placeholder {
-    color: #a0a0a0;
+    color: rgba(0,0,0,0.4);
 }
 textarea:-moz-placeholder {
-    color: #a0a0a0;
+    color: rgba(0,0,0,0.4);
 }
 .mobile-btn {
 	display: none;
@@ -154,6 +242,23 @@ textarea:-moz-placeholder {
     -ms-transition: all 0.3s;
     transition: all 0.3s;
 }
+.mobile-btn.active::before {
+    background-color: #ffffff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.mobile-btn.active::after {
+    background-color: #ffffff;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.mobile-btn.active .mobile-btn-el {
+    opacity: 0;
+}
 .close-btn {
 	display: none;
 	position: absolute;
@@ -195,14 +300,13 @@ textarea:-moz-placeholder {
 .mobile-menu {
 	display: none;
 	position: fixed;
-	z-index: 100;
+	z-index: 90;
 	top: 0;
     bottom: 0;
 	left: -200%;
-	box-sizing: border-box;
 	width: 100%;
-	padding: 70px 30px;
-	background-color: #ffffff;
+	padding: 61px 0 0;
+	background-color: #000000;
     text-align: center;
     overflow-x: hidden;
     overflow-y: auto;
@@ -216,71 +320,73 @@ textarea:-moz-placeholder {
 }
 
 .policy-text {
-    display: inline-block;
-    max-width: 100%;
-    font-size: 12px;
-    color: #2d2d2d;
-    line-height: 1.2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
     position: relative;
     text-align: left;
-    padding-left: 35px;
     margin-top: 15px;
-}
-.policy-text a {
-    color: #2d2d2d;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    transition: all 0.3s;
-}
-.policy-text a:hover {
-    color: #ffca48;
 }
 .policy-text .radio-btn {
     display: block;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border: 1px solid #f2f3f6;
-    background-color: #f2f3f6;
-    border-radius: 5px;
-    left: 0;
-    top: calc(50% - 12.5px);
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d4d4d4;
+    background-color: transparent;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
 }
 .policy-text .radio-btn.error {
     border-color: #ff0000;
 }
-.policy-text .radio-btn:hover {
-    cursor: pointer;
-}
-.policy-text .radio-btn.active::before {
+.policy-text .radio-btn.active:before {
     content: '';
     display: block;
-    width: 10px;
+    width: 13px;
     height: 2px;
     position: absolute;
     left: 1px;
-    top: 13px;
-    background-color: #0c112c;
+    top: 15px;
+    background-color: #d4d4d4;
+    border-radius: 2px;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.policy-text .radio-btn.active::after {
+.policy-text .radio-btn.active:after {
     content: '';
     display: block;
-    width: 15px;
+    width: 18px;
     height: 2px;
     position: absolute;
-    left: 7px;
-    top: 11px;
-    background-color: #0c112c;
+    left: 9px;
+    top: 13px;
+    background-color: #d4d4d4;
+    border-radius: 2px;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
+.policy-text p {
+    display: block;
+    font-family: 'BebasNeue', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.policy-text p a {
+    border-bottom: 1px solid #000000;
+}
+.policy-text p a:hover {
+    border-color: transparent;
+}
+
 
 
 @media (-webkit-min-device-pixel-ratio: 1.5) {
@@ -291,6 +397,10 @@ textarea:-moz-placeholder {
 @media screen and (max-width: 1024px){
     .mobile-btn, .mobile-menu, .close-btn {
         display: block;
+    }
+    body.no-scroll {
+        height: 100vh !important;
+        overflow: hidden !important;
     }
 }
 @media screen and (max-width: 768px){
@@ -308,7 +418,8 @@ textarea:-moz-placeholder {
         height: 3px;
         top: calc(50% - 1.5px);
     }
-    .mobile-menu {
-        padding: 50px 10px;
+
+    .policy-text {
+        justify-content: center;
     }
 }
