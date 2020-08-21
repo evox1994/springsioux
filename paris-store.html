@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="keywords" content=''>
+	<meta name="description" content=''>
+
+	<meta name="format-detection" content="telephone=no">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
+	<link rel="stylesheet" href="css/slick.css" type="text/css">
+	<link rel="stylesheet" href="css/chosen.min.css" type="text/css"/>
+	<link rel="stylesheet" href="css/layout.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+
+</head>
+<body>
+	<div class="body-wrap">
+		<div class="b header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-wrap">
+						<div class="mobile-btn-wrap">
+							<div class="mobile-btn">
+								<div class="mobile-btn-el"></div>
+							</div>
+						</div>
+						<div class="header-swaps">
+							<div class="lang-swap">
+								<div class="item active"><img src="i/lang-1.svg"></div>
+								<div class="item"><img src="i/lang-2.svg"></div>
+							</div>
+							<div class="currency-swap">
+								<div class="item active">euro</div>
+								<div class="item">dollar</div>
+							</div>
+						</div>
+						<div class="header-logo">
+							<a href="/"><img src="i/logo.svg"></a>
+						</div>
+						<div class="header-icons">
+							<a href="#" class="header-pa">
+								<!--<img src="i/pa-icon.svg">-->
+								<div class="img">
+									<svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12.2417 14.8672C13.613 14.8672 14.9536 14.4606 16.0938 13.6987C17.234 12.9368 18.1227 11.8539 18.6475 10.587C19.1723 9.32003 19.3096 7.92591 19.0421 6.58093C18.7745 5.23594 18.1142 4.00049 17.1445 3.03081C16.1748 2.06113 14.9394 1.40076 13.5944 1.13323C12.2494 0.865696 10.8553 1.003 9.58833 1.52779C8.32138 2.05258 7.2385 2.94128 6.47663 4.0815C5.71475 5.22173 5.30811 6.56227 5.30811 7.9336C5.31023 9.77186 6.04142 11.5342 7.34126 12.8341C8.6411 14.1339 10.4035 14.8651 12.2417 14.8672ZM12.2417 2.60593C13.2954 2.60593 14.3255 2.9184 15.2016 3.50381C16.0777 4.08922 16.7606 4.92129 17.1638 5.89479C17.5671 6.8683 17.6726 7.93951 17.467 8.97298C17.2614 10.0064 16.754 10.9558 16.0089 11.7008C15.2639 12.4459 14.3146 12.9533 13.2811 13.1589C12.2476 13.3645 11.1764 13.259 10.2029 12.8557C9.22939 12.4525 8.39732 11.7696 7.81191 10.8935C7.2265 10.0174 6.91404 8.98732 6.91404 7.9336C6.9151 6.52094 7.47675 5.16645 8.47565 4.16755C9.47455 3.16864 10.829 2.607 12.2417 2.60593Z" fill="black" stroke="black"/>
+										<path d="M12.2415 16.5334C6.0386 16.5334 1 20.8694 1 26.197C1 26.41 1.0846 26.6142 1.23518 26.7648C1.38577 26.9154 1.59001 27 1.80296 27C2.01592 27 2.22016 26.9154 2.37075 26.7648C2.52133 26.6142 2.60593 26.41 2.60593 26.197C2.60593 21.7526 6.93391 18.1393 12.2415 18.1393C17.5491 18.1393 21.8771 21.7526 21.8771 26.197C21.8771 26.41 21.9617 26.6142 22.1123 26.7648C22.2629 26.9154 22.4671 27 22.68 27C22.893 27 23.0972 26.9154 23.2478 26.7648C23.3984 26.6142 23.483 26.41 23.483 26.197C23.483 20.8694 18.4444 16.5334 12.2415 16.5334Z" fill="black" stroke="black"/>
+									</svg>
+								</div>
+							</a>
+							<div class="header-basket">
+								<a href="#" class="header-basket-btn">
+									<!--<img src="i/basket-icon.svg">-->
+									<div class="img">
+										<svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M6.98231 4.19116H25.2744C25.5235 4.19189 25.7694 4.24704 25.9948 4.35274C26.2201 4.45843 26.4195 4.6121 26.5788 4.80291C26.7367 4.99172 26.8503 5.21326 26.9114 5.45138C26.9724 5.6895 26.9794 5.9382 26.9318 6.17935L25.6427 13.2909C25.5758 13.6573 25.3889 13.9911 25.1112 14.2402C24.8335 14.4893 24.4807 14.6395 24.1081 14.6674L9.46832 15.5544L9.74454 16.8085C9.77612 16.9555 9.85732 17.0874 9.9746 17.182C10.0919 17.2766 10.2382 17.3283 10.3891 17.3285H23.8473C24.019 17.3092 24.1928 17.3264 24.3574 17.3787C24.522 17.431 24.6737 17.5174 24.8025 17.6322C24.9313 17.7469 25.0344 17.8875 25.1049 18.0447C25.1755 18.2019 25.212 18.3721 25.212 18.5443C25.212 18.7165 25.1755 18.8868 25.1049 19.044C25.0344 19.2011 24.9313 19.3417 24.8025 19.4565C24.6737 19.5712 24.522 19.6576 24.3574 19.7099C24.1928 19.7623 24.019 19.7794 23.8473 19.7602H10.3584C9.64036 19.7746 8.94 19.5376 8.37921 19.0905C7.81842 18.6434 7.43271 18.0145 7.28922 17.3132L4.22008 2.95237C4.18849 2.80532 4.10729 2.6735 3.99001 2.57888C3.87273 2.48426 3.72645 2.43255 3.57556 2.43239H1.21231C0.889384 2.42836 0.581053 2.29769 0.354131 2.06867C0.127208 1.83966 -2.5228e-05 1.53075 3.75207e-09 1.20889C3.75207e-09 0.888455 0.127725 0.581144 0.355078 0.354562C0.582431 0.12798 0.890787 0.00068736 1.21231 0.00068736H3.57556C4.29142 -0.0144345 4.99006 0.220363 5.55054 0.664438C6.11103 1.10851 6.49808 1.73391 6.6447 2.43239L7.02835 4.20646L6.98231 4.19116ZM12.0004 26C11.5876 26 11.1841 25.878 10.8409 25.6495C10.4977 25.4209 10.2302 25.0961 10.0722 24.716C9.91425 24.336 9.87292 23.9177 9.95344 23.5143C10.034 23.1108 10.2327 22.7402 10.5246 22.4493C10.8165 22.1584 11.1884 21.9603 11.5932 21.8801C11.998 21.7998 12.4177 21.841 12.799 21.9984C13.1804 22.1559 13.5063 22.4225 13.7357 22.7645C13.965 23.1065 14.0874 23.5087 14.0874 23.9201C14.0874 24.4717 13.8675 25.0007 13.4761 25.3908C13.0847 25.7809 12.5539 26 12.0004 26ZM21.7449 26C21.3321 26 20.9286 25.878 20.5854 25.6495C20.2422 25.4209 19.9747 25.0961 19.8167 24.716C19.6588 24.336 19.6175 23.9177 19.698 23.5143C19.7785 23.1108 19.9773 22.7402 20.2692 22.4493C20.561 22.1584 20.9329 21.9603 21.3377 21.8801C21.7426 21.7998 22.1622 21.841 22.5436 21.9984C22.9249 22.1559 23.2509 22.4225 23.4802 22.7645C23.7095 23.1065 23.8319 23.5087 23.8319 23.9201C23.8319 24.4717 23.612 25.0007 23.2206 25.3908C22.8293 25.7809 22.2984 26 21.7449 26Z" fill="black"/>
+										</svg>
+									</div>
+									<div class="header-basket-vol"><span>2</span></div>
+								</a>
+								<div class="basket-window">
+									<div class="wrap">
+										<div class="head">
+											<div class="title">Shoping cart</div>
+										</div>
+										<div class="content">
+											<ul>
+												<li>
+													<div class="image"><img src="i/basket-window-img.jpg"></div>
+													<div class="name">David's road “pleated long shirt” sh6</div>
+													<div class="price">
+														<div class="new">510 €</div>
+													</div>
+													<div class="del-btn"></div>
+												</li>
+												<li>
+													<div class="image"><img src="i/basket-window-img.jpg"></div>
+													<div class="name">David's road “pleated long shirt” sh6</div>
+													<div class="price">
+														<div class="old">580 €</div>
+														<div class="new">510 €</div>
+													</div>
+													<div class="del-btn"></div>
+												</li>
+											</ul>
+										</div>
+										<div class="bottom">
+											<div class="price">
+												<div class="title">total</div>
+												<div class="summa">510 €</div>
+											</div>
+											<a href="#" class="btn">open cart</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-nav">
+				<div class="container">
+					<ul>
+						<li><a href="/">Men</a></li>
+						<li><a href="/">Women</a></li>
+						<li><a href="/">Designers</a></li>
+						<li><a href="/">Vegan</a></li>
+						<li><a href="/">Music</a></li>
+						<li><a href="/" class="active">Paris store</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="mobile-menu">
+			<div class="menu-content">
+				<ul class="nav">
+					<li>
+						<a href="#">Men</a>
+						<div class="drop">
+							<ul>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Coats</a></li>
+								<li><a href="#">Jackets</a></li>
+								<li><a href="#">Jewelry</a></li>
+								<li><a href="#">Knitwear</a></li>
+								<li><a href="#">Leather</a></li>
+								<li><a href="#">Masks</a></li>
+								<li><a href="#">Shirts</a></li>
+								<li><a href="#">Sunglasses</a></li>
+								<li><a href="#">Sweatshirts</a></li>
+								<li><a href="#">T&nbsp;shirts & tank tops</a></li>
+								<li><a href="#">Trousers & shorts</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#">Women</a>
+						<div class="drop">
+							<ul>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Coats</a></li>
+								<li><a href="#">Jackets</a></li>
+								<li><a href="#">Jewelry</a></li>
+								<li><a href="#">Knitwear</a></li>
+								<li><a href="#">Leather</a></li>
+								<li><a href="#">Masks</a></li>
+								<li><a href="#">Shirts</a></li>
+								<li><a href="#">Sunglasses</a></li>
+								<li><a href="#">Sweatshirts</a></li>
+								<li><a href="#">T&nbsp;shirts & tank tops</a></li>
+								<li><a href="#">Trousers & shorts</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">Vegan</a></li>
+				</ul>
+				<ul class="nav-pages">
+					<li><a href="#">Designers</a></li>
+					<li><a href="#">Music</a></li>
+					<li><a href="#">Paris store</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Size chart</a></li>
+					<li><a href="#">Contact us</a></li>
+					<li><a href="#">Shipping policy</a></li>
+					<li><a href="#">Returns</a></li>
+					<li><a href="#">Payment options</a></li>
+				</ul>
+			</div>
+			<div class="swaps">
+				<div class="currency-swap">
+					<div class="item active">euro</div>
+					<div class="item">dollar</div>
+				</div>
+				<div class="lang-swap">
+					<div class="item active"><img src="i/lang-1.svg"></div>
+					<div class="item"><img src="i/lang-2.svg"></div>
+				</div>
+			</div>
+			<div class="menu-bottom">
+				<div class="image"><img src="i/free-shiping.png"></div>
+			</div>
+		</div>
+
+		<div class="b breadcrumbs">
+			<div class="container">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li>Paris store</li>
+				</ul>
+			</div>
+			<div class="btn">Paris store</div>
+		</div>
+
+		<div class="b b-designer-face small-mobile" style="background-image:url('i/ps-back.jpg');">
+			<div class="wrap">
+				<h2 class="title">Paris store</h2>
+				<div class="text">Welcome</div>
+			</div>
+			<img src="i/ps-mobile.jpg" class="abs-img">
+			<!--<div class="info-btn"></div>
+			<div class="info">
+				<div class="info-close"></div>
+				<div class="content">
+					<div class="image"><img src="i/designer-img.png"></div>
+					<div class="text">
+						<p>David's Road US is the official distributor of David's Road products in the United States, Canada and Latin America. We are based in Brooklyn, New York and offer free domestic shipping on all orders.</p><br>
+						<p>David Gevorkov was born in Tbilisi, Georgia, in 1978 but made a name for himself in Moscow, creating haute couture collections that have been widely admired in high society and celebrity circles. David is currently based between Tbilisi and Paris where he is the creative director of fashion house David's Road, creating garments that are inspired by contemporary culture and the freedom of the city, its streets, and people. Each detail, line, color, shape, and shadow has a particular meaning. In 2016, David opened his own production studio in Tbilisi.</p>
+					</div>
+				</div>
+			</div>-->
+		</div>
+
+		<div class="b b-text-block">
+			<div class="container">
+				<h2 class="b-title">Springsioux store</h2>
+				<div class="text">
+					<p>19 Rue charlot<br>75003 Paris</p><br>
+					<p>monday – saturday<br> 12h a 20h</p><br>
+					<p>sunday<br> 13h a 20h</p><br>
+					<p>01.83.06.02.10</p>
+					<p><a href="mailto:contact@springsioux.com">contact@springsioux.com</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="b b-text-on-img">
+			<img src="i/main-store.jpg">
+		</div>
+
+		<div class="b b-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.7980976244335!2d2.360206727529565!3d48.86206033905885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1ce0dae5f9%3A0xf31b1a5df2f54beb!2sSpringsioux%20Concept%20Store!5e0!3m2!1sru!2sru!4v1598016142832!5m2!1sru!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+
+		<div class="b footer">
+			<div class="footer-nav">
+				<div class="container">
+					<div class="footer-logo"><a href="/"><img src="i/logo-w.svg"></a></div>
+					<div class="nav-wrap">
+						<div class="item big">
+							<div class="item-title"><a href="#">Men</a></div>
+							<div class="item-wrap">
+								<ul>
+									<li><a href="/">Accessories</a></li>
+									<li><a href="/">Coats</a></li>
+									<li><a href="/">Jackets</a></li>
+									<li><a href="/">Jewelry</a></li>
+									<li><a href="/">Knitwear</a></li>
+									<li><a href="/">Leather</a></li>
+								</ul>
+								<ul>
+									<li><a href="/">Masks</a></li>
+									<li><a href="/">Shirts</a></li>
+									<li><a href="/">Sunglasses</a></li>
+									<li><a href="/">Sweatshirts</a></li>
+									<li><a href="/">T shirts & Tank tops</a></li>
+									<li><a href="/">Trousers & Shorts</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="item big">
+							<div class="item-title"><a href="#">Women</a></div>
+							<div class="item-wrap">
+								<ul>
+									<li><a href="/">Accessories</a></li>
+									<li><a href="/">Coats</a></li>
+									<li><a href="/">Jackets</a></li>
+									<li><a href="/">Jewelry</a></li>
+									<li><a href="/">Knitwear</a></li>
+									<li><a href="/">Leather</a></li>
+								</ul>
+								<ul>
+									<li><a href="/">Masks</a></li>
+									<li><a href="/">Shirts</a></li>
+									<li><a href="/">Sunglasses</a></li>
+									<li><a href="/">Sweatshirts</a></li>
+									<li><a href="/">T shirts & Tank tops</a></li>
+									<li><a href="/">Trousers & Shorts</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item-title"><a href="#">Designers</a></div>
+							<div class="item-wrap">
+								<ul>
+									<li><a href="/">David's road</a></li>
+									<li><a href="/">Alfred Kerbs</a></li>
+									<li><a href="/">Elena Estaun</a></li>
+									<li><a href="/">Kiriko Sato</a></li>
+									<li><a href="/">Object and dawn</a></li>
+									<li><a href="/">Thom Krom</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item-title"><a href="#">Customer service</a></div>
+							<div class="item-wrap">
+								<ul>
+									<li><a href="/">About us</a></li>
+									<li><a href="/">Size chart</a></li>
+									<li><a href="/">Shipping policy</a></li>
+									<li><a href="/">Returns</a></li>
+									<li><a href="/">Payment options</a></li>
+									<li><a href="/">Contuct us</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-about">
+				<div class="container">
+					<div class="text">© <span id="footer-year"></span> Springsioux</div>
+				</div>
+			</div>
+			<div class="footer-inst">
+				<div class="container">
+					<div class="text"><a href="https://instagram.com" target="_blank">Follow us on Instagram</a></div>
+				</div>
+			</div>
+			<div class="footer-shiping">
+				<div class="container">
+					<div class="logo"><img src="i/footer-shiping.png"></div>
+					<img src="i/footer-payments.jpg" class="footer-payments">
+				</div>
+			</div>
+		</div>
+
+		<div style="display:none;">
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="js/jquery.inputmask.bundle.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+	<script type="text/javascript" src="js/chosen.jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
