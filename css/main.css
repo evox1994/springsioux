@@ -1189,6 +1189,8 @@
 	left: 0;
 	top: calc(100% + 10px);
 	text-align: left;
+	border-radius: 5px;
+	overflow: hidden;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;

@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20190801 at Tue Jan 14 10:15:29 2014
+Created by FontForge 20190801 at Fri Jan 17 23:48:27 2014
  By Jimmy Wärting
 Copyright \(c\) 2010 by Ryoichi Tsunekawa. All rights reserved.
 </metadata>
@@ -470,8 +470,8 @@ d="M203 842l-93 -103h-54l69 103h78zM40 0v700h78v-629h200v-71h-278z" />
 d="M40 0v700h78v-629h200v-71h-278zM242 603h-29v97h75v-89l-38 -96h-33z" />
     <glyph glyph-name="ldot" unicode="&#x140;" horiz-adv-x="337" 
 d="M40 0v700h78v-629h200v-71h-278zM272 400v-97h-75v97h75z" />
-    <glyph glyph-name="lslash" unicode="&#x142;" horiz-adv-x="187" 
-d="M133 291v-291h-77v208l-51 -50v72l51 50v420h77v-337l49 51v-72z" />
+    <glyph glyph-name="lslash" unicode="&#x142;" horiz-adv-x="348" 
+d="M128 291v-220h201v-71h-278v208l-51 -50v72l51 50v420h77v-337l109 113v-72z" />
     <glyph glyph-name="m" unicode="m" horiz-adv-x="523" 
 d="M298 1h-75l-116 557v-558h-68v700h109l115 -559l111 559h109v-700h-74v563z" />
     <glyph glyph-name="n" unicode="n" horiz-adv-x="409" 

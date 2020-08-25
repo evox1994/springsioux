@@ -67,12 +67,12 @@
 
 @font-face {
     font-family: 'BebasNeue';
-    src: url('../fonts/BebasNeue-Regular.eot');
-    src: url('../fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BebasNeue-Regular.svg#BebasNeue-Regular') format('svg'),
-         url('../fonts/BebasNeue-Regular.ttf') format('truetype'),
-         url('../fonts/BebasNeue-Regular.woff') format('woff'),
-         url('../fonts/BebasNeue-Regular.woff2') format('woff2');
+    src: url('../fonts/BebasNeue Regular.eot');
+    src: url('../fonts/BebasNeue Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Regular.woff2') format('woff2'),
+         url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg'),
+         url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+         url('../fonts/BebasNeueRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -80,12 +80,12 @@
 
 @font-face {
     font-family: 'BebasNeue';
-    src: url('../fonts/BebasNeue-Book.eot');
-    src: url('../fonts/BebasNeue-Book.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BebasNeue-Book.svg#BebasNeue-Book') format('svg'),
-         url('../fonts/BebasNeue-Book.ttf') format('truetype'),
-         url('../fonts/BebasNeue-Book.woff') format('woff'),
-         url('../fonts/BebasNeue-Book.woff2') format('woff2');
+    src: url('../fonts/BebasNeue Light.eot');
+    src: url('../fonts/BebasNeue Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Light.woff2') format('woff2'),
+         url('../fonts/BebasNeueLight.svg#BebasNeueLight') format('svg'),
+         url('../fonts/BebasNeueLight.ttf') format('truetype'),
+         url('../fonts/BebasNeueLight.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -93,13 +93,39 @@
 
 @font-face {
     font-family: 'BebasNeue';
-    src: url('../fonts/BebasNeue-Bold.eot');
-    src: url('../fonts/BebasNeue-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BebasNeue-Bold.svg#BebasNeue-Bold') format('svg'),
-         url('../fonts/BebasNeue-Bold.ttf') format('truetype'),
-         url('../fonts/BebasNeue-Bold.woff') format('woff')
-         url('../fonts/BebasNeue-Bold.woff2') format('woff2');
+    src: url('../fonts/BebasNeue Book.eot');
+    src: url('../fonts/BebasNeue Book.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Book.woff2') format('woff2'),
+         url('../fonts/BebasNeueBook.svg#BebasNeueBook') format('svg'),
+         url('../fonts/BebasNeueBook.ttf') format('truetype'),
+         url('../fonts/BebasNeueBook.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue Bold.eot');
+    src: url('../fonts/BebasNeue Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Bold.woff2') format('woff2'),
+         url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg'),
+         url('../fonts/BebasNeueBold.ttf') format('truetype'),
+         url('../fonts/BebasNeueBold.woff') format('woff');
     font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue Thin.eot');
+    src: url('../fonts/BebasNeue Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Thin.woff2') format('woff2'),
+         url('../fonts/BebasNeue-Thin.svg#BebasNeue-Thin') format('svg'),
+         url('../fonts/BebasNeue-Thin.ttf') format('truetype'),
+         url('../fonts/BebasNeue-Thin.woff') format('woff');
+    font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
