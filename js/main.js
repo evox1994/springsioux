@@ -283,9 +283,18 @@ $(document).ready(function(){
 	}
 	ScrollEl();
 
+	function FaceSize(){
+		var wh = $(window).outerHeight();
+		var hh = $('.header').outerHeight();
+
+		$('.b-face').find('.wrap').css('min-height',wh - hh);
+	}
+	FaceSize();
+
 	$(window).resize(function(){
 		ScrollCatalogWidth();
 		ScrollEl();
+		FaceSize();
 	});
 
 	$(window).on('scroll',function(){

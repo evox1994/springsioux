@@ -2388,6 +2388,55 @@
 	height: 600px;
 }
 
+.b-face {
+	position: relative;
+	color: #ffffff;
+}
+.b-face:after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+.b-face-video {
+	display: block;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.b-face .wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	z-index: 1;
+	position: relative;
+	padding: 50px 0;
+}
+.b-face .wrap .title {
+	display: block;
+	width: 100%;
+	font-size: 3vw;
+}
+.b-face .wrap .subtitle {
+	display: block;
+	width: 100%;
+	margin-top: 2vw;
+	font-size: 2vw;
+	font-family: 'BebasNeue', sans-serif;
+}
+
 
 
 
