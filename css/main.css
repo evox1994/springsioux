@@ -2391,6 +2391,7 @@
 .b-face {
 	position: relative;
 	color: #ffffff;
+	background-color: #000000;
 }
 .b-face:after {
 	content: '';
@@ -2657,6 +2658,17 @@
 	}
 	.b-designer-face .info .info-close {
 		right: 30px;
+	}
+
+	.b-face-video {
+		display: none;
+	}
+	.b-face .wrap .title {
+		font-size: 36px;
+	}
+	.b-face .wrap .subtitle {
+		font-size: 18px;
+		margin-top: 20px;
 	}
 }
 @media screen and (max-width: 910px){
@@ -2972,6 +2984,14 @@
 
 	.b-map iframe {
 		height: 400px;
+	}
+
+	.b-face .wrap .title {
+		font-size: 26px;
+	}
+	.b-face .wrap .subtitle {
+		font-size: 16px;
+		margin-top: 15px;
 	}
 }
 @media screen and (max-width: 585px){
