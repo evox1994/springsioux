@@ -1586,7 +1586,7 @@
 
 .b-el-descr_mobile {
 	display: none;
-	padding: 15px 0;
+	padding: 0 0 15px;
 }
 .b-el-descr_mobile .wrap {
 	padding: 15px;
@@ -2809,8 +2809,12 @@
 		margin: 0 -15px;
 	}
 
-	.b-el-descr {
+	/*.b-el-descr {
 		display: none;
+	}*/
+	.b-el-descr .text {
+		margin-top: 15px;
+		font-size: 18px;
 	}
 
 	.b-el-descr_mobile {
