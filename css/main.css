@@ -2392,6 +2392,7 @@
 	position: relative;
 	color: #ffffff;
 	background-color: #000000;
+	overflow: hidden;
 }
 .b-face:after {
 	content: '';
@@ -2504,6 +2505,9 @@
 	}
 	.header-logo {
 		width: 142px;
+	}
+	.header.active .header-logo svg .st0 {
+		fill: #ffffff !important;
 	}
 	.header-icons {
 		width: 55px;
