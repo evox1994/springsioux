@@ -447,6 +447,7 @@
 }
 .header-nav ul > li.li-drop .drop .drop-wrap .drop-category ul {
 	justify-content: space-between;
+	align-items: flex-start;
 	flex-wrap: wrap;
 	margin-top: 5px;
 }
